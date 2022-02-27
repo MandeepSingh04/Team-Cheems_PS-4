@@ -8,40 +8,95 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="272dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="191dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="76dp"
         android:text="Gallery"
         android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="69dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="279dp"
+        android:gravity="center"
+        android:text="IMAGE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="184dp"
-        android:layout_height="204dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="260dp"
+        android:layout_height="279dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="113dp"
+        app:layout_constraintVertical_bias="0.136"
         tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="289dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="72dp"
-        android:text="Loreum Epsum sdfase sdfasd"
-        android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        tools:layout_editor_absoluteX="61dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="273dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="191dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
         android:text="Camera"
         android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:layout_editor_absoluteX="68dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <Button
+        android:id="@+id/button_open_bottom_sheet"
+        android:layout_width="294dp"
+        android:layout_height="78dp"
+        android:text="Show Details"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="169dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
